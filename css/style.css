@@ -1,0 +1,185 @@
+
+header{
+	background-color: grey;
+	overflow: hidden;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+}
+
+section{
+	margin: 10px 20px;
+	font-family: kanit; 
+	font-weight: 300;
+}
+
+div{
+	margin: 10px 20px;
+	font-family: kanit; 
+	font-weight: 300;
+}
+
+iframe{
+	display: block;
+	float: left;
+}
+nav{
+	text-align: center;
+}
+
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+nav ul li{
+	float: left;
+	padding: 10px 40px;
+	position: relative;
+    display: block; 
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-family: kanit;
+	font-size: 25px;
+	color: white;
+	display: block;	
+}
+
+.title{
+	font-family: kanit; 
+	font-weight: 1000;
+}
+
+#home a:hover{
+	background-color: #3083DC;
+	color: red;
+}
+
+#resume a:hover{
+	background: white;
+	color: red;	
+}
+
+#Sarajevo-Statue a :hover{
+	background-color: red;
+	color: red;
+	
+}
+
+#education{
+	float: left;
+	width: 50%;
+	margin: 0;
+	display: block;
+}
+
+
+
+#education ol li{
+	list-style-type: none;
+	padding: 5px 0px;
+	margin: 0;	
+} 
+
+#contact-information{
+	float: left;
+	width: 30%;
+	display: inline;
+}
+
+#accoldes{
+	float: left;
+	display: block;
+	margin: 0;
+	width: 50%
+}
+
+#accoldes h3{
+	margin: 0px;
+}
+
+footer{
+	
+	font-family: kanit;
+	font-weight:500;
+	width: 100%;
+}
+
+footer p{
+	background-color: gray;
+	float: right;
+	text-align: right;
+	margin: 10px 10px;
+	padding: 10px 30px;
+	width: 100%;
+	color: white;
+}
+
+#blalkans{
+	display: block;
+	width: 60%;
+	margin: 5% 0% 5% 0%;
+	padding:0px 20px;
+	float: left;
+}
+
+#counties{
+    display: block;
+	float: left;
+}
+
+#mainimage{
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+#mainimage2{
+	text-align: center;
+	margin: 0px 10px 0px 0px;
+	display: inline;
+	overflow: hidden;
+}
+
+#mainimage2 img {
+	text-align: center;
+	width: 30%
+}
+
+#oldman{
+	margin: 0px 0px 0px 10px 
+}
+
+.stroycontent{
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+#mapfooter{
+	bottom: 0;
+	background-color:gray;
+
+	
+}
+#map{
+	width: 70%;
+	height: 80%;
+	float: right;
+	margin: 10px,0px;
+	padding: 10px, 0px;
+	border-radius: 5px;
+	background-color: red;
+}
+
+#mapcontext p{
+	line-height:25px;
+}
+
+
+
+
+
