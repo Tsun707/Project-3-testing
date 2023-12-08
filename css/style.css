@@ -104,7 +104,6 @@ nav ul li a{
 }
 
 footer{
-	
 	font-family: kanit;
 	font-weight:500;
 	width: 100%;
@@ -175,10 +174,25 @@ footer p{
 	background-color: red;
 }
 
-#mapcontext p{
+#mapcontext {
+	height:60%;
 	line-height:25px;
 }
 
+#mapfooter{
+	padding: 10px 30px;
+	bottom: 0px;
+	width: 30%;
+	height: 60px;
+}
+
+#bosnia{
+	color:white;
+	width:30%;
+	padding: 10px;
+	background: #3083DC;
+	margin: 0px 0px 10px 0px;
+}
 
 
 
