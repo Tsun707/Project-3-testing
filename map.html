@@ -30,7 +30,16 @@
 	<h3>Disintegration of Yugoslavia</h3>
 	<p>Estimating Yugoslavia was one of the attempts that nations in Balkan Peninsula tried to unite, in order to decide their own way of diplomacy and economic growth. However, coordinating all the nations is never easy. When the economy starts to depression, the richer states won’t share their resources with poor states, which leads to Disintegration. Bosnia and Herzegovina as the nation with a mix of ethnic and religious divisions unquestionably became the hot spots during the period.</p> 
 	</section>
-	<div id=bosnia>Song about Siege of Sarajevo-Sarajevo</div>
+	<button id="bosnia">Song about Siege of Sarajevo-Sarajevo</button>
+	<script>
+	  let bosnia = document.getElementById("bosnia");
+  function playSound(){
+	  let audio = new Audio("Song about Siege of Sarajevo-Sarajevo.m4a");
+	  audio.loop = false;
+	  audio.play();
+    }	
+	bosnia.addEventListener("click", playSound);
+	</script>
 	<footer id="mapfooter">1992~1995</footer>
   </body>
 </html>
